@@ -2,11 +2,17 @@
     "filename": "00_01",
     "title": "Practical Actions" }
 ,{
-    "filename": "00_03",
+    "filename": "00_02",
     "title": "Slides" }
 ,{
     "filename": "01_01",
-    "title": "GitHub Actions" }
+    "title": "GitHub Code Search" }
+,{
+    "filename": "01_02",
+    "title": "How Do I Search?" }
+,{
+    "filename": "01_03",
+    "title": "Search Qualifiers" }
 ,{
     "filename": "demo",
     "title": "Opinionated Reveal.js" }
@@ -14,9 +20,12 @@
     "filename": "slides",
     "title": "" }
 ,{
-    "filename": "01_02",
-    "title": "Setting Up Your Repo" }
+    "filename": "01_05",
+    "title": "Syntax Operators" }
 ,{
-    "filename": "01_03",
-    "title": "Processing with Python" }
+    "filename": "01_04",
+    "title": "Search Interface" }
+,{
+    "filename": "02_01",
+    "title": "Code Search" }
 ]

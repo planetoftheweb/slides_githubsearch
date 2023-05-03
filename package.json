@@ -1,14 +1,14 @@
 {
   "name": "slides_practicalactions",
   "description": "This is a repository for the course Practical Actions by Ray Villalobos for LinkedIn Learning",
-  "repository": "http://github.com/planetoftheweb/slides_practicalactions",
+  "repository": "http://github.com/planetoftheweb/slides_githubsearch",
   "license": "MIT",
   "version": "2.0.0",
   "scripts": {
     "serve": "vite preview",
     "start": "npm-run-all --parallel dev:*",
     "dev:eleventy": "eleventy --watch",
-    "dev:vite": "vite",
+    "dev:vite": "vite --host 0.0.0.0",
     "build": "run-s prod:*",
     "prod:del": "rimraf docs",
     "prod:serve": "ELEVENTY_ENV=production eleventy --output=./docs/site",

@@ -1,7 +1,7 @@
-@import './boostrap-rayveal.scss';
-@import '../../node_modules/reveal.js/css/reveal.scss';
-@import '../../node_modules/reveal.js/css/theme/template/mixins.scss';
-@import '../../node_modules/reveal.js/css/theme/template/settings.scss';
+@import "./boostrap-rayveal.scss";
+@import "../../node_modules/reveal.js/css/reveal.scss";
+@import "../../node_modules/reveal.js/css/theme/template/mixins.scss";
+@import "../../node_modules/reveal.js/css/theme/template/settings.scss";
 
 // ---------------------------------------------
 
@@ -10,8 +10,8 @@ $backgroundColor: transparent;
 
 // Primary/body text
 $mainFontSize: 1em;
-$mainFont: 'Source Sans Pro', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji',
-  'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+$mainFont: "Source Sans Pro", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
+  "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 $mainColor: #000;
 
 // Vertical spacing between blocks of text
@@ -33,7 +33,7 @@ $heading2Size: 2.11em;
 $heading3Size: 1.55em;
 $heading4Size: 1em;
 
-$codeFont: 'Source Code Pro', 'Courier New', Courier, monospace;
+$codeFont: "Source Code Pro", "Courier New", Courier, monospace;
 
 // Links and actions
 $linkColor: $cyan;
@@ -53,7 +53,7 @@ $selectionColor: #fff;
 
 // @import '../../node_modules/reveal.js/css/reveal.scss';
 
-@import '../../node_modules/reveal.js/css/theme/template/theme.scss';
+@import "../../node_modules/reveal.js/css/theme/template/theme.scss";
 
 // Theme template ------------------------------
 
@@ -82,8 +82,8 @@ $selectionColor: #fff;
   justify-content: center;
 }
 
-.reveal-viewport .slides>section,
-.reveal-viewport .slides>section>section {
+.reveal-viewport .slides > section,
+.reveal-viewport .slides > section > section {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -107,12 +107,12 @@ $selectionColor: #fff;
   margin-top: 1em;
 }
 
-.reveal-viewport h1+p,
-.reveal-viewport h2+p {
+.reveal-viewport h1 + p,
+.reveal-viewport h2 + p {
   margin-top: 0.5em;
 }
 
-.reveal-viewport p>em {
+.reveal-viewport p > em {
   font-size: 0.7em;
   padding: 0 !important;
 }
@@ -126,13 +126,13 @@ $selectionColor: #fff;
  * Headlines
  *********************************************/
 .reveal-viewport h1,
-.reveal-viewport h1+h2,
-.reveal-viewport h1+h3 {
+.reveal-viewport h1 + h2,
+.reveal-viewport h1 + h3 {
   margin-top: 0.2em;
   line-height: 120%;
 }
 
-.reveal-viewport section>h1 {
+.reveal-viewport section > h1 {
   overflow: hidden;
   white-space: nowrap;
   font-size: clamp(2.3em, 4vw, 4em);
@@ -157,8 +157,8 @@ $selectionColor: #fff;
   font-size: clamp(0.8em, 4vw, 1.5em);
 }
 
-.reveal-viewport ul+p,
-.reveal-viewport ol+p {
+.reveal-viewport ul + p,
+.reveal-viewport ol + p {
   margin-top: 0 !important;
 }
 
@@ -226,13 +226,13 @@ $selectionColor: #fff;
   border-bottom: 1px solid $gray-300;
 }
 
-.reveal-viewport table th[align='center'],
-.reveal-viewport table td[align='center'] {
+.reveal-viewport table th[align="center"],
+.reveal-viewport table td[align="center"] {
   text-align: center;
 }
 
-.reveal-viewport table th[align='right'],
-.reveal-viewport table td[align='right'] {
+.reveal-viewport table th[align="right"],
+.reveal-viewport table td[align="right"] {
   text-align: right;
 }
 
@@ -283,8 +283,8 @@ $selectionColor: #fff;
   background-color: $gray-400;
 }
 
-.reveal-viewport pre+pre,
-.reveal-viewport pre+pre+pre {
+.reveal-viewport pre + pre,
+.reveal-viewport pre + pre + pre {
   margin-top: 0.25em;
 }
 
@@ -305,9 +305,9 @@ $selectionColor: #fff;
   margin: 0.2em 0.2em;
 }
 
-.reveal-viewport pre>code {
+.reveal-viewport pre > code {
   background: var(--bs-beige);
-  font-family: 'Source Code Pro', 'Courier New', Courier, monospace;
+  font-family: "Source Code Pro", "Courier New", Courier, monospace;
   font-weight: 400;
   text-align: left;
   white-space: pre;
@@ -335,7 +335,7 @@ $selectionColor: #fff;
 /*********************************************
  * IMAGES
  *********************************************/
-.reveal-viewport section>img {
+.reveal-viewport section > img {
   margin: 15px 0px;
 }
 
@@ -349,7 +349,7 @@ $selectionColor: #fff;
 *********************************************/
 
 .reveal-viewport code {
-  font-family: 'Source Code Pro', 'Courier New', Courier, monospace;
+  font-family: "Source Code Pro", "Courier New", Courier, monospace;
   margin: 1px;
   padding: 0 0.5em;
   display: inline-block;
@@ -361,38 +361,38 @@ $selectionColor: #fff;
 }
 
 .reveal-viewport .code-primary {
-  background: $blue  !important;
-  color: $white  !important;
+  background: $blue !important;
+  color: $white !important;
 }
 
 .reveal-viewport .code-success {
-  background-color: $green  !important;
-  color: $white  !important;
+  background-color: $green !important;
+  color: $white !important;
 }
 
 .reveal-viewport .code-info {
-  background-color: $cyan  !important;
-  color: $white  !important;
+  background-color: $cyan !important;
+  color: $white !important;
 }
 
 .reveal-viewport .code-warning {
-  background-color: $yellow  !important;
-  color: $white  !important;
+  background-color: $yellow !important;
+  color: $white !important;
 }
 
 .reveal-viewport .code-danger {
-  background-color: $red  !important;
-  color: $white  !important;
+  background-color: $red !important;
+  color: $white !important;
 }
 
 .reveal-viewport .code-royal {
-  background-color: $purple  !important;
-  color: $white  !important;
+  background-color: $purple !important;
+  color: $white !important;
 }
 
 .reveal-viewport .code-exciting {
-  background-color: $pink  !important;
-  color: $white  !important;
+  background-color: $pink !important;
+  color: $white !important;
 }
 
 /*********************************************
@@ -474,7 +474,7 @@ $selectionColor: #fff;
 }
 
 .reveal-viewport.layout-title li code {
-  background-color: $red  !important;
+  background-color: $red !important;
   color: $gray-800;
   font-weight: 600;
 }
@@ -483,7 +483,7 @@ $selectionColor: #fff;
   background: #333;
 }
 
-.reveal-viewport.layout-title:nth-of-type(1) section>h1 {
+.reveal-viewport.layout-title:nth-of-type(1) section > h1 {
   animation: typing 1.5s steps(40, end) forwards !important;
 }
 
@@ -621,7 +621,7 @@ $selectionColor: #fff;
 }
 
 .reveal-viewport.layout-quote blockquote {
-  color: $gray-200  !important;
+  color: $gray-200 !important;
   font-size: 2.5em;
   line-height: 110%;
 }
@@ -658,7 +658,7 @@ $selectionColor: #fff;
 }
 
 .footer a:hover {
-  color: $gray-200  !important;
+  color: $gray-200 !important;
   text-decoration: underline;
 }
 
@@ -685,7 +685,7 @@ footer.fadeout {
   background: $gray-800;
   bottom: 100%;
   display: block;
-  font-family: 'Source Code Pro', 'Courier New', Courier, monospace;
+  font-family: "Source Code Pro", "Courier New", Courier, monospace;
   font-size: 0.7em;
   left: -20px;
   opacity: 0;
@@ -711,7 +711,7 @@ footer.fadeout {
 
 .reveal-viewport a.tip span {
   font-weight: 600;
-  color: $gray-200  !important;
+  color: $gray-200 !important;
 }
 
 .reveal-viewport a code,
@@ -783,7 +783,7 @@ footer.fadeout {
   background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='RGBA(87, 53, 7, .65)' class='bi bi-file-text-fill' viewBox='0 0 16 16'><path d='M12 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zM5 4h6a.5.5 0 0 1 0 1H5a.5.5 0 0 1 0-1zm-.5 2.5A.5.5 0 0 1 5 6h6a.5.5 0 0 1 0 1H5a.5.5 0 0 1-.5-.5zM5 8h6a.5.5 0 0 1 0 1H5a.5.5 0 0 1 0-1zm0 2h3a.5.5 0 0 1 0 1H5a.5.5 0 0 1 0-1z'/></svg>");
   background-repeat: no-repeat;
   background-position: top center;
-  background-position: center .4em;
+  background-position: center 0.4em;
   background-size: 20px 40px;
   overflow: hidden;
 }
@@ -856,7 +856,7 @@ footer.fadeout {
   padding-left: 2em;
 }
 
-.layout-has-icon .slides h1>i {
+.layout-has-icon .slides h1 > i {
   position: absolute;
   margin-left: -1em;
   top: -0.22em;
@@ -952,7 +952,7 @@ footer.fadeout {
   font-size: clamp(1em, 4vw, 1.4em);
   padding: 0.2em 0.4em;
   line-height: 120%;
-  margin: 0;
+  margin: 4px 2px;
 }
 
 .reveal-viewport.layout-code-list ul li,
@@ -1159,7 +1159,7 @@ footer.fadeout {
   z-index: 1000;
   background: $purple;
   opacity: 0;
-  font-family: 'Source Code Pro', 'Courier New', Courier, monospace;
+  font-family: "Source Code Pro", "Courier New", Courier, monospace;
   animation: slideOutLink 1s 6.5s ease-in-out backwards, slideInLink 0.7s 2s ease-in-out backwards;
   font-size: 0.5em !important;
   display: flex !important;
@@ -1178,7 +1178,7 @@ footer.fadeout {
 }
 
 .slide-link:hover {
-  background-color: $blue  !important;
+  background-color: $blue !important;
 }
 
 .slide-link a:hover {
